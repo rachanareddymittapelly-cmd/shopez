@@ -9,7 +9,7 @@ Client/
   src/
     App.jsx
     App.css
-Server/
+server/
   config/
   controllers/
   middleware/
@@ -23,7 +23,7 @@ Server/
 ## Backend Setup
 
 ```bash
-cd Server
+cd server
 npm install
 npm run dev
 ```
