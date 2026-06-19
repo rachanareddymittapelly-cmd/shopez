@@ -2,7 +2,7 @@ const products = [
   {
     title: 'Neon Drift Hoodie',
     description: 'Oversized fleece hoodie with glow-pop accents and a soft cloud interior.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,hoodie,streetwear',
+    mainImg: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['S', 'M', 'L', 'XL'],
     category: 'Streetwear',
@@ -14,7 +14,7 @@ const products = [
   {
     title: 'Pixel Pods Mini',
     description: 'Compact wireless earbuds with punchy bass and a case that actually fits tiny pockets.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,earbuds,music',
+    mainImg: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['Standard'],
     category: 'Tech',
@@ -26,7 +26,7 @@ const products = [
   {
     title: 'Cloudstep Chunk Sneakers',
     description: 'Statement sneakers made for long scrolls, longer walks, and louder fits.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,sneakers,streetwear',
+    mainImg: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['6', '7', '8', '9', '10'],
     category: 'Sneakers',
@@ -38,7 +38,7 @@ const products = [
   {
     title: 'Gloss Bomb Care Kit',
     description: 'Hydrating lip, skin, and glow essentials packed into a travel-ready pouch.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,beauty,skincare',
+    mainImg: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['Standard'],
     category: 'Beauty',
@@ -50,7 +50,7 @@ const products = [
   {
     title: 'Cyber Cargo Pants',
     description: 'Utility cargos with relaxed street fit, roomy pockets, and a clean silver buckle detail.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,cargo-pants,fashion',
+    mainImg: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['S', 'M', 'L', 'XL'],
     category: 'Streetwear',
@@ -62,7 +62,7 @@ const products = [
   {
     title: 'Aura Crop Jacket',
     description: 'Lightweight cropped jacket with bold panels made for cafe runs and photo dumps.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,crop-jacket,fashion',
+    mainImg: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['XS', 'S', 'M', 'L'],
     category: 'Streetwear',
@@ -74,7 +74,7 @@ const products = [
   {
     title: 'SnapCharge Power Bank',
     description: 'Slim 10000mAh fast-charge power bank for long days, short cables, and low battery panic.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,phone,charging',
+    mainImg: 'https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['Standard'],
     category: 'Tech',
@@ -86,7 +86,7 @@ const products = [
   {
     title: 'Glow Keys Keyboard',
     description: 'Compact mechanical keyboard with soft RGB glow and satisfying clicky feedback.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,keyboard,desk',
+    mainImg: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['Standard'],
     category: 'Tech',
@@ -98,7 +98,7 @@ const products = [
   {
     title: 'Retro Rush Trainers',
     description: 'Vintage-inspired trainers with cushioned soles and color blocking that lands every fit.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,trainers,sneakers',
+    mainImg: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['6', '7', '8', '9', '10'],
     category: 'Sneakers',
@@ -110,7 +110,7 @@ const products = [
   {
     title: 'Midnight Court Highs',
     description: 'High-top sneakers with padded ankle support and a clean black-white court look.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,high-top-sneakers',
+    mainImg: 'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['6', '7', '8', '9', '10', '11'],
     category: 'Sneakers',
@@ -122,7 +122,7 @@ const products = [
   {
     title: 'Dewy Skin Serum',
     description: 'Everyday serum for a fresh, hydrated finish with a non-sticky feel.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,serum,skincare',
+    mainImg: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['30ml'],
     category: 'Beauty',
@@ -134,7 +134,7 @@ const products = [
   {
     title: 'Mini Cloud Perfume',
     description: 'Pocket perfume with bright citrus, soft vanilla, and an easy everyday vibe.',
-    mainImg: 'https://source.unsplash.com/900x900/?person,perfume,fragrance',
+    mainImg: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=900&q=80',
     carousel: [],
     sizes: ['50ml'],
     category: 'Beauty',
