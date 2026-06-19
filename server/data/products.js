@@ -1,12 +1,3 @@
-const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-const connectDB = require('./config/db');
-const User = require('./models/User');
-const Product = require('./models/Product');
-const Admin = require('./models/Admin');
-
-dotenv.config();
-
 const products = [
   {
     title: 'Neon Drift Hoodie',
@@ -154,37 +145,4 @@ const products = [
   },
 ];
 
-const seed = async () => {
-  await connectDB();
-  try { await mongoose.connection.db.dropCollection('users'); } catch (err) {}
-  try { await mongoose.connection.db.dropCollection('products'); } catch (err) {}
-  try { await mongoose.connection.db.dropCollection('admins'); } catch (err) {}
-
-  await User.create({
-    name: 'ShopEZ Admin',
-    email: 'admin@shopez.com',
-    mobile: '9999999999',
-    password: 'admin123',
-    role: 'admin',
-  });
-
-  await Product.insertMany(products);
-  await Admin.create({
-    banner: {
-      title: 'ShopEZ Drop Zone',
-      subtitle: 'Fresh fits, smart tech, glow kits, and sneaker heat in one scroll.',
-      image: '',
-    },
-    categories: [
-      { name: 'Streetwear', color: '#ff3d71' },
-      { name: 'Tech', color: '#00d4ff' },
-      { name: 'Beauty', color: '#a3ff12' },
-      { name: 'Sneakers', color: '#ffd60a' },
-    ],
-  });
-
-  console.log('Seed data inserted. Admin login: admin@shopez.com / admin123');
-  process.exit(0);
-};
-
-seed();
+module.exports = products;

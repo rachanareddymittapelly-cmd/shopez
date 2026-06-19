@@ -8,9 +8,9 @@ const cartRoutes = require('./routes/cartRoutes');
 const orderRoutes = require('./routes/orderRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 const { notFound, errorHandler } = require('./middleware/errorMiddleware');
+const ensureProducts = require('./utils/ensureProducts');
 
 dotenv.config();
-connectDB();
 
 const app = express();
 const PORT = process.env.PORT || 8000;
@@ -36,6 +36,13 @@ app.use('/api/admin', adminRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  console.log(`ShopEZ server running on http://localhost:${PORT}`);
-});
+const startServer = async () => {
+  await connectDB();
+  await ensureProducts();
+
+  app.listen(PORT, () => {
+    console.log(`ShopEZ server running on http://localhost:${PORT}`);
+  });
+};
+
+startServer();
