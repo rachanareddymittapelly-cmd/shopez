@@ -40,6 +40,12 @@ MongoDB connection:
 MONGO_URI=mongodb://localhost:27017/ShopEZ
 ```
 
+For deployment, also set:
+
+```text
+FRONTEND_URL=https://your-frontend-url.onrender.com
+```
+
 Seed demo products and admin:
 
 ```bash
@@ -65,6 +71,12 @@ The frontend runs on:
 
 ```text
 http://localhost:5173
+```
+
+For deployment, set:
+
+```text
+VITE_API_URL=https://your-backend-url.onrender.com/api
 ```
 
 The frontend includes demo fallback products so the UI still opens even before the backend is connected.
